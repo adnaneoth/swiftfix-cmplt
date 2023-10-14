@@ -474,3 +474,91 @@ justify-content: center;
             margin-left: 6.25rem;
         
         }
+
+                  /* about */
+
+        .d_about{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .d_info{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 30%;
+        }
+        .d_info p{
+            color: #000;
+            font-family: Poppins;
+            line-height: 36px;
+        }
+        .d_info h2{
+            color: #000;
+            font-family: Poppins;
+            font-size: 40px;
+            line-height: 36px;
+        }
+        .btn_about{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 7rem;
+        }
+
+
+                     /* services */
+        .btn_service{
+            margin-top: 2rem;
+        }
+        .title_about {
+            text-align: center;
+            font-size: 2rem;
+            font-family: Poppins;
+        }
+
+
+                     /* section contact */
+        .f_contact{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            background: #F5F9FE;
+            justify-content: center;
+            align-items:center;
+            height: 46rem;
+        }
+
+        .d_contact{
+            display: flex;
+            width: 60rem;
+            gap: 2rem;
+            flex-direction: column;
+        }
+
+        .d_contact input{
+            height: 3rem;
+            background: #D9D9D9;
+        }
+        .d_contact textarea{
+            min-height: 10rem;
+            background: #D9D9D9;
+        }
+        .d_contact :placeholder-shown{
+            font-family: Poppins;
+            font-size: 1.5rem;
+            line-height: 140.5%;
+            padding-left: 2rem;
+        }
+        .d_contact h2{
+            font-family: Poppins;
+            font-size: 40px;
+            padding-bottom: 3rem;
+        }
+
+        .cntr_btn{
+            width: 60rem;
+            padding-top: 4rem;
+        }
+
+        .d_contact{
+            font-size: 1.5rem;    
+        }
