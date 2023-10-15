@@ -5,24 +5,12 @@
 
 }
 
-
-header {
-    /* display: flex; */
-    justify-content: center;
-
-}
-
 .navbar {
     height: 3rem;
-    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 8rem;
-}
-
-.container {
-    /* display: flex ; */
 }
 
 .navbar .nav {
