@@ -55,14 +55,11 @@
 }
 
 h1 {
+    width: 25rem;
     color: #094B72;
-    font-family: Playfair Display;
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 120%;
-    /* 108px */
     letter-spacing: 1.8px;
+    font-size: 4rem;
 }
 .hero_info p{
     width: 35rem;
