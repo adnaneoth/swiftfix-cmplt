@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
       rel="stylesheet"
     >
+    <link rel="stylesheet" href="styles/responsive.css">
   </head>
   <body>
     <!-- header -->
@@ -20,7 +21,7 @@
         <img src="Logo.png" alt="##" >
         <div class="container">
           <ul class="nav">
-            <li><a href="index.html">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#">Testimonials</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
@@ -29,24 +30,31 @@
             </li>
           </ul>
         </div>
+        <img class="humberger" src="logonav.png" alt="####" >
       </nav>
     </header>
 
     <!-- section contact -->
 
     <section>
-      <form class="f_contact">
+      <form class="f_contact" onsubmit="return validateForm()">
         <div class="d_contact">
-          <h2>CONTACT US</h2>
-          <input type="text" placeholder="NAME" required >
-          <input type="number" placeholder="Phone number" required >
-          <input type="email" placeholder="Email" required >
-          <textarea name="message" placeholder="Message" required
-          ></textarea>
+            <h2>CONTACT US</h2>
+            <input type="text" id="name" placeholder="NAME" >
+            <span id="nameError" class="error-message"></span>
+    
+            <input type="text" id="phone" placeholder="Phone number" >
+            <span id="phoneError" class="error-message"></span>
+    
+            <input type="text" id="email" placeholder="Email" >
+            <span id="emailError" class="error-message"></span>
+    
+            <textarea name="message" id="message" placeholder="Message" ></textarea>
+            <span id="messageError" class="error-message"></span>
         </div>
-     <div class="cntr_btn"><button>SEND</button></div>
-        
-      </form>
+    
+        <div class="cntr_btn"><button class="button_contact">SEND</button></div>
+    </form>
     </section>
 
     <!-- footer 4 -->

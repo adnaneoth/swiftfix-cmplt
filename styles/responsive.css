@@ -1,0 +1,156 @@
+@media screen and (max-width: 767px){
+   
+   *{
+    font-size: 10px;
+   }
+
+   header{
+      margin-top: 2rem;
+   }
+    .hero-img-container{
+    display: none;
+   }
+   .hero_info{
+    width: 100%;
+   }
+   .humberger{
+      display: block;
+   }
+
+   .container{
+      display: none;
+   }
+
+   .box{
+      flex-direction: column;
+      gap: 2rem;
+   }
+
+   .box-items{
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .item1{
+      width: 25rem;
+   }
+
+   .item1 p {
+      font-size: 1.1rem;
+  }
+
+  .bg_pctr{
+   display: none;
+  }
+
+  .Text_testimonial2{
+   display: none;
+  }
+
+  .card p {
+   font-size: 11px;
+}
+
+.text{
+   margin-left: 0;
+}
+
+
+.textitem h2{
+   width: 100%;
+   font-size: 42px;;
+}
+
+.textitem p{
+   width: 100%;
+   font-size: 1rem;
+   padding-left: 1.3rem;
+}
+.flex_items{
+   flex-direction: column;
+   justify-content: center;
+}
+
+#line{
+   border: none;
+   margin: 0%;
+   padding: 0%;
+}
+
+.textitem button{
+   width: 120px;
+   height: 40px;
+   margin-left: 2rem;
+}
+
+.footer__logo__lists {
+   flex-direction: column;
+   align-items: center;
+}
+
+.footer__lists{
+   flex-direction: column;
+   align-items: center;
+   margin-right: 0;
+}
+
+.footer__logo{
+   margin: 0;
+   margin-top: 20px;
+   
+}
+
+           /* contact */
+
+   
+.d_contact h2{
+font-size: 2rem;
+}
+
+
+           /* about */
+.d_info{
+   width: 100%;
+   padding: 1rem;
+}
+
+.d_info h2{
+   
+   font-size: 3rem;
+   text-align: center;
+}
+
+.d_info p{
+   
+   font-size: 2rem;
+   margin-top: 2rem;
+   text-align: center;
+
+}
+
+.title_about h2{
+
+   margin-top: 3rem;
+   font-size: 2rem;
+}
+
+
+
+   
+    }
+
+
+    @media screen and (max-width: 860px){
+
+      .d_info{
+         width: 100%;
+         padding: 1rem;
+      }
+      
+      .d_info h2{
+         
+         font-size: 3rem;
+         text-align: center;
+      }
+      
+    }
