@@ -22,9 +22,18 @@
         <div class="container">
           <ul class="nav">
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Testimonials</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
+            <li class="services-list">Services
+              <div class="select">
+                <ul>
+                  <li><a href="services.html">service1</a></li>
+                  <li><a href="services.html">service2</a></li>
+                  <li><a href="services.html">service3</a></li>
+                </ul>
+              </div>
+            </li>
+            <li ><input class="chrch_input" type="text"></li>
             <li class="icon_search">
               <a href="#"><img src="SearchOutline.png" alt="##" ></a>
             </li>
@@ -40,20 +49,20 @@
       <form class="f_contact" onsubmit="return validateForm()">
         <div class="d_contact">
             <h2>CONTACT US</h2>
-            <input type="text" id="name" placeholder="NAME" >
-            <span id="nameError" class="error-message"></span>
+            <input type="text" id="name" placeholder="NAME">
+            <div id="nameError" class="error-message"></div>
     
-            <input type="text" id="phone" placeholder="Phone number" >
+            <input type="text" id="phone" placeholder="Phone number">
             <span id="phoneError" class="error-message"></span>
     
-            <input type="text" id="email" placeholder="Email" >
+            <input type="text" id="email" placeholder="Email">
             <span id="emailError" class="error-message"></span>
     
-            <textarea name="message" id="message" placeholder="Message" ></textarea>
-            <span id="messageError" class="error-message"></span>
+           <textarea name="message" id="message" placeholder="Message"></textarea>
+        <span id="messageError" class="error-message"></span>
         </div>
     
-        <div class="cntr_btn"><button class="button_contact">SEND</button></div>
+        <div class="cntr_btn"><button type="submit" class="button_contact">SEND</button></div>
     </form>
     </section>
 
@@ -106,4 +115,6 @@
       </div>
     </footer>
   </body>
+  <script src="script.js"></script>
+  <script src="validation.js"></script>
 </html>

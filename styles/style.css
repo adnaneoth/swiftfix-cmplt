@@ -7,9 +7,14 @@
 
 .humberger{
     display: none;
-    width: 3rem;
-    height: 3rem;
+    top: 4rem;
+     position: absolute; 
+     right: 4rem;
+     width: 35px
 }
+.mobile-menu{
+    margin-left:0;
+ }
 
 .navbar {
     height: 3rem;
@@ -233,6 +238,7 @@ letter-spacing: 0.24px;
 }
                 
 .Testimonials{
+transition: transform .5s ;
 display: inline-flex;
 align-items: flex-start;
 margin-top: 5rem;
@@ -270,8 +276,10 @@ margin-left: 5rem;
 margin-left: 1rem;
 }
 .Testimonials .card{
+    
 border-radius: 10px;
-height: 12rem;
+width: 45vw;
+height: auto;
 background: #ffffff;
 text-align: center;
 box-shadow: 0px 5px 8px 5px rgb(240, 233, 233);
@@ -332,6 +340,42 @@ justify-content: center;
     margin-top: 1rem;
     gap: 1.2rem;
         }
+
+/* @keyframes next1{
+    form{
+        left : 0%
+    }
+    to{
+        left: -100%
+    }
+}
+
+@keyframes next2{
+    form{
+        left : 100%
+    }
+    to{
+        left: 0%
+    }
+}
+
+@keyframes prev1{
+    form{
+        left : 0%
+    }
+    to{
+        left: 100%
+    }
+}
+
+@keyframes next2{
+    form{
+        left : -100%
+    }
+    to{
+        left: 0%
+    }
+} */
    
            /* section4 */
 
@@ -537,15 +581,162 @@ justify-content: center;
         .d_contact{
             font-size: 1.5rem;    
         }
-
-        .error-message {
-            color: red;
-        }
-    
-        .danger {
+        .f_contact .error input{
             border-color: red;
         }
-    
-        .success {
+
+        .f_contact .success input{
             border-color: green;
         }
+
+        .f_contact .error-message{
+            color: red;
+        }
+
+
+
+                     /* FAQ style */
+
+       .faq_sec{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3rem;
+
+         }
+       .title_faq{
+        font-size: 3rem;
+        margin: 2rem 0rem; 
+                       
+       }
+                    
+        .faqs{
+        
+        border-bottom:2px solid #000000 ;
+        padding-bottom: 1rem;
+        margin-top: 2rem;
+        cursor: pointer;
+          }
+        .question{
+          display: flex;
+           justify-content: space-between;
+        align-items: center;
+                        
+           }
+          .question h3{
+        font-size: 2rem;        
+        }
+       .answers {
+        max-height: 0;
+         overflow: hidden;
+        transition:1.2s ease;
+                    }
+        .ansers p{
+        padding-top: 1rem;
+        line-height: 1.6rem;
+        font-size: 1.4rem;
+                    }
+         .active .answers{
+           max-height: 300px;
+             }
+          .active i{
+            transform: rotate(180deg);
+           }
+             i{
+           transition: transform 0.5s;
+           }
+
+
+        .chrch_input {
+            display: none;
+            height: 1.5rem;
+            width: 11rem;
+            font-size: 1rem;
+        }
+        .affch_chrch
+        {
+            display: block;
+        }
+       
+        .select{
+            width: 6rem;
+            position: absolute;
+            box-shadow: 2px 2px 3px 0px;
+            padding-top: 1.5rem;
+            padding-right: 3rem;
+            background-color: #dddce77c;
+            display: none;
+        }
+        
+
+
+        .select-active{
+            display: block;
+        }
+
+            /* modal */
+
+            .modalis h2{
+                text-align: center;
+                font-size: 3rem;
+            }
+
+            .button_Close{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+
+            .close{
+                
+                text-align: center;
+                font-family: Poppins;
+                font-size: 22px;
+                font-weight: 600;
+            }
+            
+            .close:hover{
+             
+                        cursor: pointer;
+            }
+            
+            
+            .open:hover{
+                        cursor: pointer;
+            }
+            
+            .modal{    
+                margin: auto;
+                padding: 30px 50px;
+                width: 70%;
+                border: #FFF;
+                box-shadow: 0 0 1em rgb(0, 0, .3);
+                
+            }
+
+
+
+
+            .hidden_testomonials{
+                width: 50vw;
+                margin: auto;
+                height: auto;
+                overflow: hidden;
+                padding-inline: 1%;
+            }
+            .Client_details1 img{
+                height: 3vw;
+            }
+
+            .input-error{
+                border: solid 2px red;
+             
+            
+            }
+            .input-valid{
+                border: solid 2px green;
+            
+            
+            }

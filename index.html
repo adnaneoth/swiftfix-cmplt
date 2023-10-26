@@ -22,10 +22,19 @@
         <img src="Logo.png" alt="##" >
         <div class="container">
           <ul class="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Testimonials</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
+            <li class="services-list">Services
+              <div class="select">
+                <ul>
+                  <li><a href="services.html">service1</a></li>
+                  <li><a href="services.html">service2</a></li>
+                  <li><a href="services.html">service3</a></li>
+                </ul>
+              </div>
+            </li>
+            <li ><input class="chrch_input" type="text"></li>
             <li class="icon_search">
               <a href="#"><img src="SearchOutline.png" alt="##" ></a>
             </li>
@@ -170,6 +179,7 @@
         </defs>
       </svg>
       <h2 class="ptr">Clients Testimonial</h2>
+      <div class="hidden_testomonials">
       <div class="Testimonials">
         <div class="Text_testimonial1">
           <div class="card">
@@ -190,7 +200,7 @@
           </div>
         </div>
 
-        <div class="Text_testimonial2">
+        <div class="Text_testimonial1">
           <div class="card">
             <span>Dependable, Responsive, Professional Partner</span>
             <p>
@@ -209,6 +219,7 @@
           </div>
         </div>
       </div>
+    </div>
     </section>
     <!-- section 4 -->
 
@@ -297,4 +308,8 @@
       
     </footer>
   </body>
+
+  <script src="script.js"></script>
+  <script src="testimonial.js"></script>
+
 </html>
